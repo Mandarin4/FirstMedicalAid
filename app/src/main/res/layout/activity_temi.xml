@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.pervayapomosh.firstmedicalaid.TemiActivity"
+    android:background="@color/background">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linerBTNTemiAct1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/btn"
+                android:onClick="btnTemiAct1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textTemiAct1"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textMainACt1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/pmp1"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerBTNTemiAct2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/btn"
+                android:onClick="btnTemiAct2"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textTemiAct2"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textMainACt1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/pmp2" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerBTNTemiAct3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/btn"
+                android:onClick="btnTemiAct3"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textTemiAct3"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textMainACt1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/pmp3" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerBTNTemiAct4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/btn"
+                android:onClick="btnTemiAct4"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textTemiAct4"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textMainACt1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/pmp4" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linerBTNTemiAct5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:background="@drawable/btn"
+                android:onClick="btnTemiAct5"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/textTemiAct5"
+                    android:textColor="@color/black"
+                    android:textSize="20sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textMainACt1"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="250dp"
+                        android:layout_height="250dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/pmp5" />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>
